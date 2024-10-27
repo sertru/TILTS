@@ -1,0 +1,27 @@
+{
+  "name": "tilts",
+  "version": "0.0.1",
+  "description": "Work-in-progress repository to create an evergreen typescript starter.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sertru/TILTS.git"
+  },
+  "keywords": [
+    "latest",
+    "evergreen",
+    "typescript",
+    "starter",
+    "node",
+    "pnpm"
+  ],
+  "author": "sertru (Sergey Trusov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sertru/TILTS/issues"
+  },
+  "homepage": "https://github.com/sertru/TILTS#readme"
+}
