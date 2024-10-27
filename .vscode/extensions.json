@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "eamodio.gitlens",
-        "vscode-icons-team.vscode-icons"
+        "vscode-icons-team.vscode-icons",
+        "streetsidesoftware.code-spell-checker"
     ]
 }
