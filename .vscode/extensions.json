@@ -1,7 +1,8 @@
 {
-    "recommendations": [
-        "eamodio.gitlens",
-        "vscode-icons-team.vscode-icons",
-        "streetsidesoftware.code-spell-checker"
-    ]
+	"recommendations": [
+		"eamodio.gitlens",
+		"vscode-icons-team.vscode-icons",
+		"streetsidesoftware.code-spell-checker",
+		"biomejs.biome"
+	]
 }
