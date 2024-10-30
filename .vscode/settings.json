@@ -5,5 +5,10 @@
 	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
 		"quickfix.biome": "explicit"
+	},
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
 	}
 }
