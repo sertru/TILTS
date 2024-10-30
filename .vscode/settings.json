@@ -1,8 +1,9 @@
 {
-    "files.eol": "\r\n",
-    "cSpell.words": [
-        "Sergey",
-        "sertru",
-        "Trusov"
-    ],
+	"files.eol": "\r\n",
+	"cSpell.words": ["Sergey", "sertru", "Trusov"],
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit"
+	}
 }

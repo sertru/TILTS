@@ -1,6 +1,5 @@
+const main = (): void => {
+	console.log("Hello World!");
+};
 
-const main = ():void => {
-    console.log("Hello World!")
-}
-
-main()
+main();
