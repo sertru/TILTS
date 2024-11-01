@@ -1,30 +1,23 @@
 # TILTS: Truly Impossibly Latest Typescript Starter
 
-I want to live in a world where you can search for `Typescript Starter` and find a nice repository right away that was updated with reasonable changes at most a week ago (and not 2 or more years ago).
+An evergreen typescript starter using:
 
-> **Status: Not much to see yet. Developer is naively optimistic.**
+| | Dependency | Version|
+| :--: | :--: | :--: |
+| <img height="50" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"> | [Node.js](https://nodejs.org/en) | v22.11.0 (LTS) |
+| <img height="50" src="https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png" alt="npm" title="npm"/> | [npm](https://www.npmjs.com/package/npm) |  v10.9.0 |
+| <img height="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f" alt="Bun.js" title="Bun.js"/> | [Bun](https://bun.sh) | v1.1.33 |
 
-## Objectives
+## Setup
+ 
+- `bun i`
+- `bun dist` and `bun start`
+    - or just `bun start:ts`
 
-- Use Latest/LTS/Stable versions.
-- Use Yarn or check for other package managers.
-- Auto-formatting/linting should work on save.
-- Use ESM instead of CommonJS.
+## Features
 
-## Guidelines
+- Auto-formatting on save with [Biome](https://biomejs.dev)
 
-- Start small and expand with bite-sized chunks.
-- Every push to `main` branch must come from a PR.
-  - A PR must have a description of changes and how these changes were achieved (if applicable).
-  - Ideally, going through PR descriptions and file changes from oldest to newest should provide a tutorial-like experience of how this repository came to be.
-- Contents of every file in this repository must be reasonable and relevant.
-  - e.g. for any setting or property in tsconfig, or package.json, or gitignore, or other file - there must be a reason for it to be there. `It might be used the future` is not a good reason.
-- No global npm installs unless absolutely necessary (use Dev Dependencies)
-- Use explicit versions for dependencies, no `^` or `~`. If version changed - check what was updated explicitly, and then update it.
-  - `dependabot` is nice, saves some time, and might come later, but for the time being - it's better to try to form a habit of checking what was actually changed in a dependency that is being updated and not have "hidden" updates. No one is perfect and even patch-level updates can have breaking changes.
+## Credits
 
-## Acknowledgements
-
-- This might be a pipe dream, and this repository could end up as just another lifeless husk like so many others out there. This is fine 🔥.
-- There are countless things I have no knowledge of. Building up this repository will also be a learning experience.
-- In a world where everything updates constantly - expect this repository to always be at least a little out-of-date.
+- Readme icons by [marwin1991/profile-technology-icons](https://github.com/marwin1991/profile-technology-icons/tree/main)
