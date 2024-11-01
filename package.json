@@ -1,10 +1,10 @@
 {
   "name": "tilts",
-  "version": "0.0.1",
-  "description": "Work-in-progress repository to create an evergreen typescript starter.",
+  "version": "0.1.0",
+  "description": "An evergreen typescript starter.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "dist": "tsc",
     "start": "bun dist/index.js",
     "start:ts": "bun src/index.ts"
   },
@@ -12,14 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/sertru/TILTS.git"
   },
-  "keywords": [
-    "latest",
-    "evergreen",
-    "typescript",
-    "starter",
-    "node",
-    "pnpm"
-  ],
+  "keywords": ["latest", "evergreen", "typescript", "starter", "node", "pnpm"],
   "author": "sertru (Sergey Trusov)",
   "license": "MIT",
   "bugs": {
@@ -28,7 +21,7 @@
   "homepage": "https://github.com/sertru/TILTS#readme",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "22.8.1",
+    "@types/node": "22.8.6",
     "typescript": "5.6.3"
   }
 }
