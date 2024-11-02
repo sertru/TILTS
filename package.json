@@ -2,26 +2,42 @@
   "name": "tilts",
   "version": "0.1.0",
   "description": "An evergreen typescript starter.",
-  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "dist": "tsc",
-    "start": "bun dist/index.js",
-    "start:ts": "bun src/index.ts"
+    "clean": "rimraf ./dist",
+    "dist:cjs": "tsc -p tsconfig.lib.json --module CommonJS --outDir dist/cjs && echo '{\"type\": \"commonjs\"}' > dist/cjs/package.json",
+    "dist:esm": "tsc -p tsconfig.lib.json --module Node16 --outDir dist/esm && echo '{\"type\": \"module\"}' > dist/esm/package.json",
+    "dist": "bun clean && bun dist:cjs && bun dist:esm",
+    "start": "bun src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sertru/TILTS.git"
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "1.1.12",
+    "@types/node": "22.8.6",
+    "rimraf": "6.0.1",
+    "typescript": "5.6.3"
+  },
+  "exports": {
+    ".": {
+      "require": {
+        "default": "./dist/cjs/index.js",
+        "types": "./dist/cjs/index.d.ts"
+      },
+      "import": {
+        "default": "./dist/esm/index.js",
+        "types": "./dist/esm/index.d.ts"
+      }
+    }
   },
   "keywords": ["latest", "evergreen", "typescript", "starter", "node", "pnpm"],
   "author": "sertru (Sergey Trusov)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sertru/TILTS.git"
+  },
   "bugs": {
     "url": "https://github.com/sertru/TILTS/issues"
   },
-  "homepage": "https://github.com/sertru/TILTS#readme",
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/node": "22.8.6",
-    "typescript": "5.6.3"
-  }
+  "homepage": "https://github.com/sertru/TILTS#readme"
 }

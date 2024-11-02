@@ -1,5 +1,7 @@
+import { sampleEsm } from './samples/esm/sample.js';
+
 const main = (): void => {
-  console.log('Hello World!');
+  sampleEsm();
 };
 
 main();
