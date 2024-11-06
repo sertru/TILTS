@@ -23,3 +23,8 @@ An evergreen typescript starter using:
 ## Credits
 
 - Readme icons by [marwin1991/profile-technology-icons](https://github.com/marwin1991/profile-technology-icons/tree/main)
+
+## Waiting list
+
+- Bun VSCode extension support for running individual tests: https://github.com/oven-sh/bun/pull/13668
+- Build CJS and ESM without bundling using Bun: https://github.com/oven-sh/bun/issues/5206
