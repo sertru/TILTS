@@ -7,14 +7,15 @@
     "dist:cjs": "tsc -p tsconfig.cjs.json && echo '{\"type\": \"commonjs\"}' > dist/cjs/package.json",
     "dist:esm": "tsc -p tsconfig.esm.json && echo '{\"type\": \"module\"}' > dist/esm/package.json",
     "dist": "bun clean && bun dist:cjs && bun dist:esm",
-    "start": "bun src/index.ts"
+    "start": "bun src/index.ts",
+    "up": "bun outdated && bun update --latest && bun upgrade && npm i npm -g --latest"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/bun": "1.1.13",
-    "@types/node": "22.9.1",
+    "@types/node": "22.9.3",
     "rimraf": "6.0.1",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "type": "module",
   "main": "dist/cjs/index.js",
