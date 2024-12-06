@@ -1,5 +1,5 @@
 import { expect, spyOn, test } from 'bun:test';
-import { sampleEsm } from './sample.js';
+import { sampleEsm } from './sample.ts';
 
 test('Calling sampleEsm prints with console.log', () => {
   // Arrange
