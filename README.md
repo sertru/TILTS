@@ -18,7 +18,7 @@ An evergreen typescript starter using:
 
 ## Features
 
-- Using ESM and building into both ESM and CJS with `.js` extensions.
+- Using ESM and building into both ESM and CJS with `.ts` extensions in import paths of typescript files.
 
 ## Credits
 
