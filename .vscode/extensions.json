@@ -3,6 +3,7 @@
     "eamodio.gitlens",
     "vscode-icons-team.vscode-icons",
     "streetsidesoftware.code-spell-checker",
-    "biomejs.biome"
+    "biomejs.biome",
+    "oven.bun-vscode"
   ]
 }
