@@ -8,16 +8,16 @@
     "dist:esm": "tsc -p tsconfig.esm.json && echo '{\"type\": \"module\"}' > dist/esm/package.json",
     "dist": "bun clean && bun dist:cjs && bun dist:esm",
     "start": "bun src/index.ts",
-    "up": "bun outdated && bun update --stable && bun upgrade && npm i npm -g --latest",
+    "up": "bun outdated && bun update --latest && bun upgrade && npm i npm -g --latest",
     "it-works": "bun dist && bun start && node dist/cjs/index.js && node dist/esm/index.js && bun test",
     "versions": "echo '\nNode.js:' && node -v && echo '\nnpm:' && npm -v && echo '\nTypescript:' && tsc -v && echo '\nBun:' && bun -v && echo '\nBiome:' && bun biome -V"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/bun": "1.1.14",
-    "@types/node": "22.10.3",
+    "@types/bun": "1.1.16",
+    "@types/node": "22.10.5",
     "rimraf": "6.0.1",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   },
   "type": "module",
   "main": "dist/cjs/index.js",
