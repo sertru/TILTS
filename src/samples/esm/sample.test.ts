@@ -8,7 +8,7 @@ test('Calling sampleEsm prints with console.log', () => {
   // Act
   sampleEsm();
 
-  // Expect
+  // Assert
   expect(spy).toHaveBeenCalledTimes(1);
   expect(spy.mock.calls).toEqual([
     [
