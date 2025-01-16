@@ -1,7 +1,6 @@
 {
   "name": "tilts",
   "version": "0.1.0",
-  "description": "An evergreen typescript starter.",
   "scripts": {
     "clean": "rimraf ./dist",
     "dist:cjs": "tsc -p tsconfig.cjs.json && echo '{\"type\": \"commonjs\"}' > dist/cjs/package.json",
@@ -15,7 +14,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/bun": "1.1.16",
-    "@types/node": "22.10.5",
+    "@types/node": "22.10.7",
     "rimraf": "6.0.1",
     "typescript": "5.7.3"
   },
@@ -35,15 +34,5 @@
     }
   },
   "files": ["dist"],
-  "keywords": ["latest", "evergreen", "typescript", "starter", "node", "pnpm"],
-  "author": "sertru (Sergey Trusov)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sertru/TILTS.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sertru/TILTS/issues"
-  },
-  "homepage": "https://github.com/sertru/TILTS#readme"
+  "license": "MIT"
 }

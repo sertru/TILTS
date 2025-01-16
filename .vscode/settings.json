@@ -1,6 +1,6 @@
 {
   "files.eol": "\n",
-  "cSpell.words": ["biomejs", "Sergey", "sertru", "Trusov"],
+  "cSpell.words": ["biomejs"],
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {

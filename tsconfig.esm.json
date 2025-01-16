@@ -4,6 +4,6 @@
   "compilerOptions": {
     "module": "Node16",
     "outDir": "dist/esm",
-    "target": "ES2023"
+    "target": "ES2024"
   }
 }
