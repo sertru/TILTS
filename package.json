@@ -9,12 +9,12 @@
     "start": "bun src/index.ts",
     "up": "bun outdated && bun update --latest && bun upgrade && npm i npm -g --latest",
     "it-works": "bun dist && bun start && node dist/cjs/index.js && node dist/esm/index.js && bun test",
-    "versions": "echo '\nNode.js:' && node -v && echo '\nnpm:' && npm -v && echo '\nTypescript:' && tsc -v && echo '\nBun:' && bun -v && echo '\nBiome:' && bun biome -V"
+    "versions": "echo '\nNode.js:' && node -v && echo '\nnpm:' && npm -v && echo '\nTypescript:' && tsc -v && echo '\nBun:' && bun -v && echo '\nBiome:' && biome -V"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/bun": "1.1.16",
-    "@types/node": "22.10.7",
+    "@types/bun": "1.2.0",
+    "@types/node": "22.10.9",
     "rimraf": "6.0.1",
     "typescript": "5.7.3"
   },
