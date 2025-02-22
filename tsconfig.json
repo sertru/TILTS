@@ -1,4 +1,10 @@
 {
+  // This is used both by VSCode and to build the esm output
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": ["./tsconfig.base.json", "./tsconfig.esm.json"]
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "Node16",
+    "outDir": "dist/esm",
+    "target": "ES2024"
+  }
 }
