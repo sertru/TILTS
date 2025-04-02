@@ -8,5 +8,8 @@
     "source.organizeImports": "explicit"
   },
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "npm.packageManager": "bun"
+  "npm.packageManager": "bun",
+  "terminal.integrated.env.windows": {
+    "PATH": "%USERPROFILE%\\.bun\\bin;${env:PATH}"
+  }
 }
