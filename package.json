@@ -10,11 +10,12 @@
     "dev": "bun --watch src/index.ts",
     "up": "bun outdated && bun update --latest && bun upgrade",
     "it-works": "bun dist && bun start && node dist/cjs/index.js && node dist/esm/index.js && bun test",
-    "versions": "echo '\nTypescript:' && tsc -v && echo '\nBun:' && bun -v && echo '\nBiome:' && biome -V"
+    "versions": "echo '\nTypescript:' && tsc -v && echo '\nBun:' && bun -v && echo '\nBiome:' && biome -V",
+    "check-bun-path": "where bun"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/bun": "1.2.8",
+    "@types/bun": "1.2.9",
     "rimraf": "6.0.1",
     "typescript": "5.8.3"
   },
