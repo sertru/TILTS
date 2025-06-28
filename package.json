@@ -13,8 +13,8 @@
     "versions": "echo '\nTypescript:' && tsc -v && echo '\nBun:' && bun -v && echo '\nBiome:' && biome -V"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0",
-    "@types/bun": "1.2.16",
+    "@biomejs/biome": "2.0.6",
+    "@types/bun": "1.2.17",
     "rimraf": "6.0.1",
     "typescript": "5.8.3"
   },
