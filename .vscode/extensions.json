@@ -4,6 +4,7 @@
     "vscode-icons-team.vscode-icons",
     "streetsidesoftware.code-spell-checker",
     "biomejs.biome",
-    "oven.bun-vscode"
+    "oven.bun-vscode",
+    "TypeScriptTeam.native-preview"
   ]
 }
